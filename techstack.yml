@@ -1,0 +1,146 @@
+repo_name: maxgfr/widows-dragonball-application
+report_id: 2f281bdd15cbe48f8e7572be03a72cea
+repo_type: Public
+timestamp: '2023-11-10T09:18:38+00:00'
+requested_by: maxgfr
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: 4.5.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: Models/Models.csproj
+  detection_source: TP/TP.csproj
+  last_updated_by: maxgfr
+  last_updated_on: 2017-02-02 18:30:31.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: Smalltalk
+  description: An object-oriented, dynamically typed reflective programming language
+  website_url: http://en.wikipedia.org/wiki/Smalltalk
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2624/no-img-open-source.png
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: TP/packages.config
+  last_updated_by: maxgfr
+  last_updated_on: 2017-02-02 18:30:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: TP/packages.config
+  last_updated_by: maxgfr
+  last_updated_on: 2017-02-02 18:30:31.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source: TP.sln
+  last_updated_by: maxgfr
+  last_updated_on: 2017-02-02 18:30:31.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: Models/packages.config
+  detection_source: TP/packages.config
+  last_updated_by: maxgfr
+  last_updated_on: 2017-02-02 18:30:31.000000000 Z
+- name: CommonServiceLocator
+  description: The library provides an abstraction over IoC containers and service
+    locators
+  package_url: https://www.nuget.org/CommonServiceLocator
+  version: '1.3'
+  license: MS-PL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12915/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: Models/packages.config
+  detection_source: TP/packages.config
+  last_updated_by: maxgfr
+  last_updated_on: 2017-02-02 18:30:31.000000000 Z
+- name: Prism.Core
+  description: Prism is a fully open source version of the Prism guidance originally
+    produced by Microsoft Patterns &amp; Practices
+  package_url: https://www.nuget.org/Prism.Core
+  version: 6.1.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13325/default_9a849f196ca7930b27f663ae8f15c937ea1b49e5.png
+  detection_source_url: Models/packages.config
+  detection_source: TP/packages.config
+  last_updated_by: maxgfr
+  last_updated_on: 2017-02-02 18:30:31.000000000 Z
+- name: Prism.Wpf
+  description: Prism is a fully open source version of the Prism guidance originally
+    produced by Microsoft Patterns &amp; Practices
+  package_url: https://www.nuget.org/Prism.Wpf
+  version: 6.1.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13377/default_24f30a6aa060dc11b9cd4dd1d52905db9245e978.png
+  detection_source_url: Models/packages.config
+  detection_source: TP/packages.config
+  last_updated_by: maxgfr
+  last_updated_on: 2017-02-02 18:30:31.000000000 Z
